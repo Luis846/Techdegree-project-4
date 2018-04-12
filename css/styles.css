@@ -1,3 +1,7 @@
+a {
+  text-decoration: none;
+}
+
 input[type=text] {
     width: 300px;
     height: 30px;
@@ -21,13 +25,20 @@ input[type=text]:focus {
   text-decoration: none;
 }
 
-.photos {
+.list {
   max-width: 100%;
   margin-left: 25px;
   margin-right: 25px;
 
 }
+.lb-details {
+  padding-top: 10px;
 
+}
+.lb-data .lb-details .lb-caption {
+  font-weight: bold;
+  font-size: 18px;
+}
 
 .vision {
   text-align: center;
